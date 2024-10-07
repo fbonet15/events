@@ -1,0 +1,14 @@
+﻿<Window x:Class="events.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:events"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Name="Panel" ButtonBase.Click="Panel_Click" >
+        <Button Content="Envia!!" Margin="15" Width="150" HorizontalAlignment="Left" Click="Boto_1"/>
+        <Button Content="Envia2!!" Margin="15" Width="150" HorizontalAlignment="Center" Click="Boto_2"/>
+        <Button Content="Envia3!!" Margin="15" Width="150" HorizontalAlignment="Right" Click="Boto_3"/>
+    </StackPanel>
+</Window>
